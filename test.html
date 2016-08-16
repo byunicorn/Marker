@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marker</title>
+	<script type="text/javascript" src="lib/jquery.js"></script>
+	<script type="text/javascript" src="lib/jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="lib/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="lib/jquery-ui.structure.css">
+	<link rel="stylesheet" type="text/css" href="lib/jquery-ui.theme.css">
+	<link rel="stylesheet" type="text/css" href="marker.css">
+</head>
+<body>
+	<img id="target" src="bula.jpg"><br/>
+	<button id="markBtn">Start Marking</button>
+	<script type="text/javascript" src="marker.js"></script>
+	<div id="editor">
+		<div class="palette">
+			<canvas width="200px" height="200px"></canvas>
+		</div>
+		<div class="toolbar">
+			<ul>
+				<li><button>Zoom</button></li>
+				<li><button>Cut</button></li>
+				<li><button>Left Rotate</button></li>
+				<li><button>Right Rotate</button></li>
+				<li><button>Reset</button></li>
+				<li><button>Done</button></li>
+			</ul>
+		</div>
+	</div>
+	<div id="marker">
+		<div class="palette">
+			<canvas width="200px" height="200px"></canvas>
+		</div>
+		<div class="toolbar">
+			<ul>
+				<li><button>Mark</button></li>
+				<li><button>Reset</button></li>
+				<li><button>Done</button></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

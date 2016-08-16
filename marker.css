@@ -1,0 +1,8 @@
+.toolbar ul {
+	list-style: none;
+	text-align: center;
+}
+
+.toolbar ul li {
+	display: inline-block;
+}
